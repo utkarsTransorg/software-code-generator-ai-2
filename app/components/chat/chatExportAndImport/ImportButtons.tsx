@@ -57,7 +57,7 @@ export function ImportButtons(importChat: ((description: string, messages: Messa
           }
         }}
       />
-      <div className="flex flex-col items-center gap-4 max-w-2xl text-center">
+      {/* <div className="flex flex-col items-center gap-4 max-w-2xl text-center">
         <div className="flex gap-2">
           <Button
             onClick={() => {
@@ -90,7 +90,7 @@ export function ImportButtons(importChat: ((description: string, messages: Messa
             )}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -411,7 +411,7 @@ export const Workbench = memo(
                       <ExportChatButton exportChat={exportChat} />
 
                       {/* Sync Button */}
-                      <div className="flex border border-bolt-elements-borderColor rounded-md overflow-hidden ml-1">
+                      {/* <div className="flex border border-bolt-elements-borderColor rounded-md overflow-hidden ml-1">
                         <DropdownMenu.Root>
                           <DropdownMenu.Trigger
                             disabled={isSyncing || streaming}
@@ -450,7 +450,7 @@ export const Workbench = memo(
                             </DropdownMenu.Item>
                           </DropdownMenu.Content>
                         </DropdownMenu.Root>
-                      </div>
+                      </div> */}
 
                       {/* Toggle Terminal Button */}
                       <div className="flex border border-bolt-elements-borderColor rounded-md overflow-hidden ml-1">
